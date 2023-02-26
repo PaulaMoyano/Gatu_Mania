@@ -35,7 +35,7 @@ export default function Footer() {
               adopcionesgatumania@gmail.com
             </h5>
             <div className="mt-6">
-              <a href="https://www.facebook.com/profile.php?id=100064353235012" target={"_blank"}>
+              <a href="https://www.facebook.com/profile.php?id=100064353235012" target={"_blank"} rel="noreferrer">
               <button
                 className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
@@ -43,7 +43,7 @@ export default function Footer() {
                 <i className="flex fab fa-facebook-square"></i>
               </button>
               </a>
-              <a href="https://www.instagram.com/gatu_mania/" target={"_blank"}>
+              <a href="https://www.instagram.com/gatu_mania/" target={"_blank"} rel="noreferrer">
               <button
                 className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
@@ -62,17 +62,17 @@ export default function Footer() {
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://docs.google.com/forms/d/1kPjZij_TIHkjdYijXfdCaBxZVbS5IWdcVU-pA5KEkRM/viewform?edit_requested=true" target={"_blank"}>Formulario de adopción
+                        href="https://docs.google.com/forms/d/1kPjZij_TIHkjdYijXfdCaBxZVbS5IWdcVU-pA5KEkRM/viewform?edit_requested=true" target={"_blank"} rel="noreferrer">Formulario de adopción
                     </a>
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.instagram.com/p/Cf3sLTfucgA/" target={"_blank"}>Donar sangre
+                        href="https://www.instagram.com/p/Cf3sLTfucgA/" target={"_blank"} rel="noreferrer">Donar sangre
                     </a>
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.instagram.com/p/Cd_lpX3vnnf/" target={"_blank"}>Adopción responsable
+                        href="https://www.instagram.com/p/Cd_lpX3vnnf/" target={"_blank"} rel="noreferrer">Adopción responsable
                     </a>
                   </li>
 

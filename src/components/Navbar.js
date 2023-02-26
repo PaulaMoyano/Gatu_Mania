@@ -14,15 +14,15 @@ export default function Navbar(props) {
     >
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-          <a
+          <div
             className={
               "flex items-center text-primary text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             }
             
           >
-            <img src={logo} className="h-12 mr-2 " />
+            <img src={logo} className="h-12 mr-2 " alt="logo" />
             Gatumanía
-          </a>
+          </div>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
@@ -52,7 +52,7 @@ export default function Navbar(props) {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="https://www.facebook.com/profile.php?id=100064353235012" target={"_blank"}
+                href="https://www.facebook.com/profile.php?id=100064353235012" target={"_blank"} rel="noreferrer"
               >
                 <i
                   className={
@@ -71,7 +71,7 @@ export default function Navbar(props) {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="https://www.instagram.com/gatu_mania/" target={"_blank"}
+                href="https://www.instagram.com/gatu_mania/" target={"_blank"} rel="noreferrer"
               >
                 <i
                   className={
@@ -83,7 +83,7 @@ export default function Navbar(props) {
             </li>
 
             <li className="flex items-center">
-              <a href="https://docs.google.com/forms/d/1kPjZij_TIHkjdYijXfdCaBxZVbS5IWdcVU-pA5KEkRM/viewform?edit_requested=true" target={"_blank"}>
+              <a href="https://docs.google.com/forms/d/1kPjZij_TIHkjdYijXfdCaBxZVbS5IWdcVU-pA5KEkRM/viewform?edit_requested=true" target={"_blank"} rel="noreferrer">
               <button
                 className={
                   (props.transparent

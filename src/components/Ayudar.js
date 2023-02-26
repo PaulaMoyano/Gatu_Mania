@@ -57,7 +57,7 @@ export default function Ayudar() {
                   Mercado Pago
                 </h5>
                 <p className="mt-2 mb-4 text-gray-400">
-                  <a href='https://www.mercadopago.com.ar/payment-link/v1/redirect?preference-id=804682745-0978404f-a490-4987-874a-20f0a3fd0e8d&source=link' target={"_blank"}> Click acá </a>
+                  <a href='https://www.mercadopago.com.ar/payment-link/v1/redirect?preference-id=804682745-0978404f-a490-4987-874a-20f0a3fd0e8d&source=link' target={"_blank"} rel="noreferrer"> Click acá </a>
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
